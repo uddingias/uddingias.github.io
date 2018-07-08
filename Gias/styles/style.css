@@ -1,0 +1,58 @@
+h1{
+	color:#3CB371;
+	font-family:arial;
+	font-size:50px;
+	text-align:center;
+	text-shadow:6px 4px 2px black;
+}
+img{
+	display:block;
+	margin:0 auto;
+}
+h2{
+	color:	#2F4F4F;
+	font-family:arial;
+	font-size:15px;
+	text-align:center;
+}
+h3{
+	color:	#191970;
+	font-family:arial;
+	font-size:25px;
+	border:1px solid black;
+	text-align:center;
+}
+li{
+	color:	#A52A2A;
+	font-family:arial;
+	font-size:15px;
+}
+h4{
+	color:	#000080;
+	font-family:Kavivanar;
+	font-size:25px;
+	border:1px solid black;
+	text-align:center;
+}
+p{
+	color:	#0000FF;
+	font-size:15px;
+	line-height:2;
+	letter-spacing:1px;
+}
+#id1{
+	color:	#FF4500;
+}
+#id2{
+	color:	#FF4500;
+}
+#id3{
+	color:	#FF4500;
+}
+html{
+	background-color:	#4B0082;
+}
+body{
+	background-color:	#7B68EE;
+	
+}
