@@ -1,0 +1,112 @@
+<!Doctype html>
+<html>
+<head>
+<title>Html Form</title>
+<style>
+form{
+	border-radius:1em;
+	border:1px solid black;
+	margin:0 auto;
+	padding:20px;
+	width:400px;
+}
+fieldset{
+	width:150px;
+	box-sizing:border-box;
+	margin-left:150px;
+}
+ul{
+	margin:2px;
+	padding:2px;
+	list-style:none;
+}
+span{
+	display:inline-block;
+	width:200px;
+	text-align:right;
+	color:red;
+}
+label{
+	position:relative;
+}
+label span {
+          display: inline-block;
+          width: 120px;
+          text-align:right;
+}
+label em{
+	position:absolute;
+	right:5px;
+	top:15px;
+}
+div{
+	margin-top:1em;
+}
+#id1{
+	text-align:center;
+}
+
+</style>
+</head>
+<body>
+<form>
+<h1>Payment form</h1>
+<p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+<section>
+<h2>Contact Information</h2>
+<fieldset>
+<legend>Title<abbr title="mandatory">*</abbr></legend>
+<ul>
+<li>
+<input type="radio" required name="title" id="mister" name="gender" value="mister">
+<label for="mister">Mister</label>
+</li>
+<li>
+<input type="radio" required name="title" id="miss" name="gender" value="miss">
+<label for="miss">Miss</label>
+</li>
+</ul>
+</fieldset>
+<div>
+<label for="name"><span>Name: </span><strong><abbr title="required">*</abbr></strong></label>
+<input type="text" required pattern="[A-Za-z]{8-30}" name="name" id="name" >
+</div>
+<div>
+<label for="mail"><span>E-mail: </span><strong><abbr title="required">*</abbr></strong></label>
+<input type="email" required="[^@]*@[^@]*" name="mail" id="mail" >
+</div>
+<div>
+<label for="pwd"><span>Password: </span><strong><abbr title="required">*</abbr></strong></label>
+<input type="password" name="pwd" id="pwd" >
+</div>
+</section>
+<section>
+<h2>Payment Information</h2>
+<div>
+<label for="card"><span>Card type: </span></label>
+<select id="card" name="card">
+<option value="visa">Visa</option>
+<option value="ms">Mastercard</option>
+<option value="ae">American Express</option>
+</select>
+</div>
+<div>
+<label for="number"><span>Card Number: </span><strong><abbr title="required">*</abbr></strong></label>
+<input type="text" name="number" id="number" >
+</div>
+<div>
+<label for="date"><span>Expiration Date: </span><strong><abbr title="required">*</abbr></strong>
+<em>formatted as mm/yy</em>
+</label>
+<input type="text" name="date" id="date" >
+</div>
+</section>
+<section>
+<br>
+<div id="id1">
+<button type="submit">Validate the payment</button>
+</div>
+</section>
+</form>
+</body>
+</html>
