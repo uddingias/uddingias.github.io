@@ -1,0 +1,59 @@
+h1{
+   text-align:right;
+   color:green;}
+
+form{
+	border-radius:1em;
+	border:1px solid black;
+	margin:0 auto;
+	padding:20px;
+	width:400px;
+}
+fieldset{
+	width:150px;
+	
+	box-sizing:border-box;
+	margin-left:150px;
+        
+}
+ul{
+	margin:2px;
+	padding:2px;
+	list-style:none;
+	
+}
+span{
+	display:inline-block;
+	width:200px;
+	text-align:right;
+	color:blue;
+}
+label{
+	position:relative;
+}
+label span {
+          display: inline-block;
+          width: 120px;
+          text-align:right;
+              
+ }
+label em{
+	position:absolute;
+	right:5px;
+	top:15px;
+}
+
+div{
+	margin-top:1em;
+	
+}
+button{
+	width:200px;
+	margin-left:150px;
+  color:red;
+}
+#heading
+{
+ color:pink;
+}
+h2

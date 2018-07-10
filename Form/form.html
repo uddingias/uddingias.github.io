@@ -1,0 +1,68 @@
+<!Doctype html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<form>
+<h1>Payment form</h1>
+<section>
+<h2>Contact Information:-</h2>
+<fieldset>
+<legend>Title</legend>
+<ul>
+<li>
+<input type="radio" id="Female" name="Female" value="Female">
+<label for="Female">Female</label>
+</li>
+<li>
+<input type="radio" id="Male" name="Male" value="Male">
+<label for="Male">Male</label>
+</li>
+</ul>
+</fieldset>
+<div>
+<label for="name"><span>Name: </span><strong><abbr title="required"></abbr></strong></label>
+<input type="text" name="name" id="name" >
+</div>
+<div>
+<label for="mail"><span>E-mail: </span><strong><abbr title="required"></abbr></strong></label>
+<input type="email" name="mail" id="mail" >
+</div>
+<div>
+<label for="pwd"><span>Password: </span><strong><abbr title="required"></abbr></strong></label>
+<input type="password" name="pwd" id="pwd" >
+</div>
+</section>
+<section>
+<h2 id="heading"> Payment Information:-</h2>
+
+<div>
+<label for="card"><span>Card type: </span></label>
+<select id="card" name="card">
+<option value="visa">Visa</option>
+<option value="ms">Mastercard</option>
+<option value="db">DBBL</option>
+</select>
+</div>
+<div>
+<label for="number"><span>Card Number: </span><strong><abbr title="required"></abbr></strong></label>
+<input type="text" name="number" id="number" >
+</div>
+<div>
+<label for="date"><span>Expiration Date: </span><strong><abbr title="required"></abbr></strong>
+<em>formatted as mm/yy</em>
+</label>
+<input type="text" name="date" id="date" >
+
+
+</div>
+</section>
+<section>
+<div>
+<button type="submit">submit</button>
+</div>
+</section>
+</form>
+</body>
+</html>
